@@ -1,0 +1,49 @@
+# Drone Air Pollution Monitoring - Requirements
+
+# Core Framework
+tensorflow==2.15.0
+keras==2.15.0
+
+# Computer Vision
+opencv-python==4.8.1.78
+
+# Data Processing
+numpy==1.26.2
+pandas==2.1.4
+
+# IoT and Sensor Communication
+pyserial==3.5
+paho-mqtt==1.6.1
+
+# GPS
+gpsd-py3==0.3.0
+geopy==2.4.1
+
+# Visualization
+matplotlib==3.8.2
+plotly==5.18.0
+seaborn==0.13.0
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+flask-socketio==5.3.6
+
+# Data Storage
+sqlalchemy==2.0.23
+
+# Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Time Series Analysis
+scikit-learn==1.3.2
+scipy==1.11.4
+
+# Raspberry Pi (Optional - install on Pi only)
+# RPi.GPIO==0.7.1
+# gpiozero==2.0
+
+# Development
+jupyter==1.0.0
